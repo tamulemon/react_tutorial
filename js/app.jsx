@@ -1,3 +1,5 @@
+var React = require('react');
+
 var Comment = React.createClass({
 	render: function() {
 		var rawMarkup = marked(this.props.children.toString(), {sanitize: true});
